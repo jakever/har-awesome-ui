@@ -1,4 +1,5 @@
-# harlen-awesome-ui
+# har-awesome-ui
+> A Component Library for Vue.js.
 
 ## Project setup
 ```
