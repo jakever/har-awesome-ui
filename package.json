@@ -17,7 +17,7 @@
     "url": "git+https://github.com/jakever/har-awesome-ui.git"
   },
   "bugs": {
-    "url": "https://github.com/linxsbox/har-awesome-ui/issues"
+    "url": "https://github.com/jakever/har-awesome-ui/issues"
   },
   "scripts": {
     "serve": "vue-cli-service serve",
