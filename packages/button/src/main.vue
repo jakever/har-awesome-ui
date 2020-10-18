@@ -1,12 +1,18 @@
 <template>
-  <div class="har-button">
+  <div class="har-button" @click="handleClick">
     har-button
   </div>
 </template>
 
 <script>
+  import moment from 'moment'
   export default {
-    name: "har-button"
+    name: "har-button",
+    methods: {
+      handleClick() {
+        console.log(moment())
+      }
+    }
   }
 </script>
 

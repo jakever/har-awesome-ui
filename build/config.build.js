@@ -8,7 +8,7 @@ module.exports = {
             ...getComponentEntries('packages'),
         },
         output: {
-            filename: '[name]/index.js',
+            filename: '[name].js',
             libraryTarget: 'commonjs2',
             libraryExport: 'default',
             library: 'har-ui',
@@ -18,7 +18,7 @@ module.exports = {
     css: {
         sourceMap: true,
         extract: {
-            filename: '[name]/style.css'
+            filename: 'css/[name].css'
         }
     },
     chainWebpack: config => {
