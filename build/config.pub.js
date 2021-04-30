@@ -5,7 +5,7 @@ module.exports = {
         extensions: ['.js', '.vue', '.json'],
         alias: {
             'components': utils.resolve('packages'),
-            'har-ui': utils.resolve('packages/index.js'),
+            'har-ui': utils.resolve('lib/index.js'),
         }
     },
 }

@@ -8,17 +8,16 @@ module.exports = {
             ...getComponentEntries('packages'),
         },
         output: {
-            filename: '[name].js',
+            filename: '[name]/index.js',
             libraryTarget: 'commonjs2',
             libraryExport: 'default',
-            library: 'har-ui',
+            library: 'har-awesome-ui',
         },
         resolve: pub.resolve,
     },
     css: {
-        sourceMap: true,
         extract: {
-            filename: 'css/[name].css'
+            filename: '[name]/style.css'
         }
     },
     chainWebpack: config => {

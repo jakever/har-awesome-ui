@@ -2,6 +2,7 @@
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png" />
     <har-button>测试</har-button>
+    <har-input></har-input>
   </div>
 </template>
 <script>
